@@ -1,0 +1,7 @@
+permalink: /otter-pop/:year/:month/:day/:title
+markdown: rdiscount
+exclude: ['.git']
+name: "Otter Pop"
+description: "The world's greated jekyll theme"
+base url:
+highlighter: rouge
