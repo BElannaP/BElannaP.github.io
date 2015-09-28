@@ -5,3 +5,13 @@ name: "Otter Pop"
 description: "The world's greated jekyll theme"
 base url: ''
 highlighter: rouge
+
+
+#links for the blog tabs
+links:
+  - title: twitter
+    url: http://twitter.com/xyba_gamergirl
+    icon: twitter
+  - title: blog
+    url: tumblr.com
+    icon: doc
