@@ -11,24 +11,29 @@
     <link rel="apple-touch-img/logo" sizes="72x72" href="/otter-pop/img/logo.jpg">
     <link rel="apple-touch-img/logo" sizes="114x114" href="/otter-pop/img/logo.jpg">
 
-    <link href="../css/styles.css" rel="stylesheet" type="text/css">
-    <link href="../css/pygments.css" rel="stylesheet" type="text/css">
-    <link href="../img/logo.jpg" rel="shortcut icon">
+    <link href="/css/styles.css" rel="stylesheet" type="text/css">
+    <link href="/css/pygments.css" rel="stylesheet" type="text/css">
+    <link href="/img/logo.jpg" rel="shortcut icon">
 </head>
 <body>
+ <body>
   <div class="sidebar">
     <a href="/" class="logo">
-      <img src="/otter-pop/img/logo.jpg">
+      <img src="/img/logo.jpg">
     </a>
 
     <ul class="nav">
       <div class="nav-inner">
-        <li><a href="http://tybenz.com"><span class="icon doc"></span>blog</a></li>
-        <li><a href="http://tybenz.com/about"><span class="icon info"></span>about</a></li>
-        <li><a href="http://tybenz.com/projects"><span class="icon code"></span>projects</a></li>
-        <li><a href="http://spamthe.net"><span class="icon link"></span>links</a></li>
-        <li><a href="http://github.com/tybenz"><span class="icon github"></span>github</a></li>
-        <li><a href="http://twitter.com/tybenz"><span class="icon twitter"></span>twitter</a></li>
+          {% for link in site.links %}
+          <li> <a href={{link.url}}> <span class="icon {{link.icon}}"></span>{{link.title}} </a> </li>
+          {% endfor %}
+        <li><a href="/"><span class="icon doc"></span>blog</a></li>
+        <li>
+            <a href="/about">
+                <span class="icon info"></span>
+                about
+            </a>
+          </li>
       </div>
     </ul>
   </div>

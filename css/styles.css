@@ -263,3 +263,11 @@ video {
     max-width: 60%;
   }
 }
+audio {
+}
+.hide {
+  display: none;
+}
+.show {
+  display: inline-block;
+}
