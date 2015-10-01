@@ -11,7 +11,14 @@ highlighter: rouge
 links:
   - title: twitter
     url: http://twitter.com/xyba_gamergirl
-    icon: twitter
+    icon: twittericon
   - title: link
     url: links.html
     icon: link
+  - title: About
+    url: 
+    icon: openbookicon
+  - title: RainbowsAndSugarPlums
+    url: rainbowsandsugarplums.html
+    icon: purplebunny456
+    
