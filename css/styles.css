@@ -101,8 +101,7 @@ a {
 
 .post-body img {
   max-width: 100%;
-  display: block;
-  margin-bottom: 10px;
+  display: inline-block;
 }
 
 .post-body a:nth-of-type(4n) {
@@ -162,9 +161,11 @@ video {
   margin-right: 0.5em;
   background-size: 100% 100%;
 }
-
-.icon.doc {
-  background-image:url(/img/doc.png);
+.icon.bunny {
+  background-image:url(/img/purplebunny456.gif);
+}
+.icon.about {
+  background-image:url(/img/openbookicon.png);
 }
 
 .icon.info {
@@ -172,7 +173,7 @@ video {
 }
 
 .icon.code {
-  background-image:url(/img/code.png);
+  background-image:url(/img/.png);
 }
 
 .icon.link {
@@ -180,11 +181,11 @@ video {
 }
 
 .icon.twitter {
-  background-image:url(/img/twitter.png);
+  background-image:url(/img/twittericon.png);
 }
 
 .icon.github {
-  background-image:url(/img/github.png);
+  background-image:url(/img/GitHub-Logo.png);
 }
 
 .nav a {
