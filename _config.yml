@@ -2,7 +2,7 @@ permalink: /otter-pop/:year/:month/:day/:title
 markdown: rdiscount
 exclude: ['.git']
 name: "Otter Pop"
-description: "nothing to see here"
+description: " "
 base url: ''
 highlighter: rouge
 
