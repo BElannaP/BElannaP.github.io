@@ -1,0 +1,104 @@
+You are simple traveler walk into the forest which way do you go?
+
+So you turn left you see trees maybe some birds and a few bushes.
+
+So you turn right you see some trees, some bushes, and a house
+.
+Left :
+
+Do you continue walking?
+
+If yes:
+you walk till you get to a clearing where you find the circle of birds around a dead tree.
+
+If no:
+You look up and see the birds circling the area a little ahead
+
+Do you go see what the birds are looking at?
+
+If yes:
+You get closer you see a dead tree and then all the birds just turn around and look at you they don't fly away they just look with their cold soulless eyes
+
+If no:
+You turn around and walk the other direction. do you head all the way back to town? Or do you look around a bit more?
+
+No:
+If head back:
+You had back in town you go back to your shop you selfish little rest your days and you live absent minded ignorant but happily ever after. The end.
+
+If stay:
+So You've decided to stay and continue on your journey, have a good adventure.
+
+......
+
+The birds I look at you and then suddenly up at the dead tree and then one by one all around the circle th extend their wings fly away. Then the tree slowly starts to shake and sink into the ground as you watch think you start to feel as if the trees are coming toward you all towards the center you try to run away but the trees are too dense you can't figure out a way out you can't fit between any of the trees. Where the dead tree had sunk into the ground there's a hole about the size of a small gourd nothing else is happening the trees of stop coming towards the middle but you can't escape from this clearing you're stunned you don't know what to do frozen with fright you are what do you do?
+
+-try to get out of the circle of trees
+
+-investigate the hole
+
+
+
+Right:
+Do you continue walking or do you investigate the house?
+
+If walk:
+You keep walking until you get to a clearing(start left)
+
+If house: 
+You look around the house nothing usual just a normal cottage does just like anywhere else in town but it's out in the middle of nowhere do you go inside?
+
+If inside:
+Repair in the windows but it's just too dark to see so you decide to slowly open the door it creeks open and.....
+
+If not:
+You decide not to go inside better not look at someone else's things but the trees look funny around it there wilted as if they were flowers are you sure you don't wanna go inside?
+
+If inside:
+(Inside)
+
+If no:
+Fine then you turn around and start walking back up the path(village end)
+
+(inside)
+you look inside and you are stunted because, nothing is weird about the house? it looks just like a average house. chairs, table, stove. only thing that's weird is that it is strangely empty, like it was built then never lived in, at all. you go and touch the stove and it isn't even dusty, but your hand grazes the stove pipe and it is hot, you rip your hand away and it's got burns on it. 
+
+-find something for your hand
+
+-look in stove
+
+	if hand:
+youre hurt so you quickly look around for something to help, you see a rag hanging off the stove handle, it looks clean….ish…. 
+
+-use rag to bandage hand
+
+-run to the well
+
+
+
+
+
+var nightmar = document.body.querySelector('p');
+undefined
+nightmar
+<p data-brackets-id=​"136">​...to your worst night mare​</p>​
+var smile = document.body.querySelector('img');
+undefined
+smile
+<img data-brackets-id=​"129" onload=​"this.style.opacity='1';​" src=​"https:​/​/​kinzatahir.files.wordpress.com/​2013/​10/​evil-smile.jpg" style=​"opacity:​ 1;​">​
+smile.style.opacity = "0";
+"0"
+nightmar.style.animation = "type 2s steps(60, end"
+"type 2s steps(60, end"
+function showSmiley(){smile.style.opacity = "1"}
+undefined
+nightmar.addEventListener("animationend", showSmiley,false);
+undefined
+nightmar.style.animation = "type 2s steps(60, end"
+"type 2s steps(60, end"
+nightmar.style.animation = "type 2s steps(60, end)"
+"type 2s steps(60, end)"
+nightmar
+<p data-brackets-id=​"136" style=​"animation:​ type 2s steps(60, end)​;​">​...to your worst night mare​</p>​
+nightmar.style.animation = ""
+""
