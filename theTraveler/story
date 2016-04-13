@@ -2,8 +2,8 @@ You are simple traveler walk into the forest which way do you go?
 
 So you turn left you see trees maybe some birds and a few bushes.
 
-So you turn right you see some trees, some bushes, and a house
-.
+So you turn right you see some trees, some bushes, and a house.
+
 Left :
 
 Do you continue walking?
@@ -74,31 +74,3 @@ youre hurt so you quickly look around for something to help, you see a rag hangi
 
 -run to the well
 
-
-
-
-
-var nightmar = document.body.querySelector('p');
-undefined
-nightmar
-<p data-brackets-id=​"136">​...to your worst night mare​</p>​
-var smile = document.body.querySelector('img');
-undefined
-smile
-<img data-brackets-id=​"129" onload=​"this.style.opacity='1';​" src=​"https:​/​/​kinzatahir.files.wordpress.com/​2013/​10/​evil-smile.jpg" style=​"opacity:​ 1;​">​
-smile.style.opacity = "0";
-"0"
-nightmar.style.animation = "type 2s steps(60, end"
-"type 2s steps(60, end"
-function showSmiley(){smile.style.opacity = "1"}
-undefined
-nightmar.addEventListener("animationend", showSmiley,false);
-undefined
-nightmar.style.animation = "type 2s steps(60, end"
-"type 2s steps(60, end"
-nightmar.style.animation = "type 2s steps(60, end)"
-"type 2s steps(60, end)"
-nightmar
-<p data-brackets-id=​"136" style=​"animation:​ type 2s steps(60, end)​;​">​...to your worst night mare​</p>​
-nightmar.style.animation = ""
-""
