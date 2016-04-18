@@ -8,7 +8,7 @@ var flkty = new Flickity( elem, {
 // disable previous & next buttons and dots
     prevNextButtons: false,
     pageDots: false,
-    autoPlay: 2550,
+    autoPlay: 2500,
     wrapAround: true,
     lazyLoad: true,
 });
